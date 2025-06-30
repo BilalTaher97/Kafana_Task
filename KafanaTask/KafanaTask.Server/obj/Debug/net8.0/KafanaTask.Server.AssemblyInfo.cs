@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KafanaTask.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f087dc1a207a17b3c0d22cd21d09b11d55cb341a")]
 [assembly: System.Reflection.AssemblyProductAttribute("KafanaTask.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KafanaTask.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

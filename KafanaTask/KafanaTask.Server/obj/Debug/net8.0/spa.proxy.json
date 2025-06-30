@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:62162",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\HP\\source\\repos\\KafanaTask\\KafanaTask.Server\\..\\kafanatask.client",
+"WorkingDirectory": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\..\\kafanatask.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

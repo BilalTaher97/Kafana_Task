@@ -1,1 +1,2 @@
 C:\Users\HP\source\repos\KafanaTask\kafanatask.client\obj\Debug\kafanatask.client.esproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Desktop\Kafana_Task\KafanaTask\kafanatask.client\obj\Debug\kafanatask.client.esproj.CoreCompileInputs.cache
