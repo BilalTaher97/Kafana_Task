@@ -1,0 +1,1 @@
+C:\Users\HP\source\repos\KafanaTask\kafanatask.client\obj\Debug\kafanatask.client.esproj.CoreCompileInputs.cache
