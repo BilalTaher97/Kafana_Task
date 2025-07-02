@@ -2,9 +2,23 @@
 {
     public class CustomerDto
     {
-        public string NameEn { get; set; } = null!;
-        public string Email { get; set; } = null!;
-        public string Phone { get; set; } = null!;
-        public string PasswordHash { get; set; } = null!; // مستقبلاً: استقبل plain password وشفّرها بالخدمة
+        public int Id { get; set; }
+        public string NameEn { get; set; } = "";
+        public string? NameAr { get; set; }
+        public string? Email { get; set; }
+        public string? Phone { get; set; }
+        public string? StatusEn { get; set; }
+        public string? StatusAr { get; set; }
+        public string? GenderEn { get; set; }
+        public string? GenderAr { get; set; }
+        public DateTime? DateOfBirth { get; set; }
+        public DateTime ServerDateTime { get; set; }
+        public DateTime DateTimeUtc { get; set; }
+        public DateTime? LastLoginDateTimeUtc { get; set; }
+        public DateTime? UpdateDateTimeUtc { get; set; }
+        public byte[]? Photo { get; set; }
+
+        public int OrdersCount { get; set; } 
+
     }
 }
