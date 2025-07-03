@@ -5,7 +5,7 @@ namespace KafanaTask.Service.Interface
 {
     public interface ICustomerService
     {
-        Task<(List<CustomerDto> customers, int TotalCount)> GetPaginatedAsync(int page, int pageSize);
+        Task<(List<CustomerDTO> customers, int TotalCount)> GetPaginatedAsync(int page, int pageSize);
 
         Task<Customer?> GetUserByIdAsync(int id);
         Task DeleteUsersAsync(List<int> ids);

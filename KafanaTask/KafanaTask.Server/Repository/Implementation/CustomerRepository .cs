@@ -17,13 +17,13 @@ namespace KafanaTask.Repository.Implemetnation
 
 
 
-        public async Task<List<CustomerDto>> GetAllUsersAsync(int page, int pageSize)
+        public async Task<List<CustomerDTO>> GetAllUsersAsync(int page, int pageSize)
         {
             return await _context.Customers
                 .Include(c => c.Orders) // ضروري لعدّ الطلبات
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
-                .Select(c => new CustomerDto
+                .Select(c => new CustomerDTO
                 {
                     Id = c.Id,
                     NameEn = c.NameEn,

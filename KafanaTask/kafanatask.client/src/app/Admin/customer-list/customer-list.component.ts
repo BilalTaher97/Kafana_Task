@@ -25,9 +25,7 @@ export class CustomerListComponent implements OnInit {
     this.loadCustomers();                     // تحميل العملاء عند تحميل الصفحة
   }
 
-  /**
-   * تحميل العملاء حسب الصفحة الحالية
-   */
+  
   loadCustomers(): void {
     this.adminService.getCustomers(this.currentPage, 10).subscribe(response => {
       this.customers = response.data;

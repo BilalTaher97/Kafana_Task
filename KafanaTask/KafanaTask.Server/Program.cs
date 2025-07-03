@@ -26,6 +26,9 @@ builder.Services.AddScoped<IAdminProductsRepo, AdminProductsRepo>();
 builder.Services.AddScoped<IAdminOrdersRepos, AdminOrdersRepos>();
 builder.Services.AddScoped<IAdminOrdersService, AdminOrdersService>();
 
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
 
 
 builder.Services.AddCors(options =>

@@ -6,7 +6,7 @@ namespace KafanaTask.Repository.Interface
 {
     public interface ICustomerRepository
     {
-        Task<List<CustomerDto>> GetAllUsersAsync(int page, int pageSize);
+        Task<List<CustomerDTO>> GetAllUsersAsync(int page, int pageSize);
         Task<int> usersCount();
         Task<Customer> GetUserById(int Id);
         Task<List<Customer>> GetUsersByIdsAsync(List<int> ids);

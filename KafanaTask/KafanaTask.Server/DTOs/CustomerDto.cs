@@ -1,6 +1,6 @@
 ﻿namespace KafanaTask.DTOs
 {
-    public class CustomerDto
+    public class CustomerDTO
     {
         public int Id { get; set; }
         public string NameEn { get; set; } = "";

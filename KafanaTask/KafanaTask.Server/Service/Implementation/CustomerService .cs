@@ -15,7 +15,7 @@ namespace KafanaTask.Service.Implemetnation
             _customerRepository = customerRepository;
         }
 
-        public async Task<(List<CustomerDto> customers, int TotalCount)> GetPaginatedAsync(int page, int pageSize)
+        public async Task<(List<CustomerDTO> customers, int TotalCount)> GetPaginatedAsync(int page, int pageSize)
         {
 
             var customers = await _customerRepository.GetAllUsersAsync(page, pageSize);

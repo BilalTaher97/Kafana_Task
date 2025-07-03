@@ -189,6 +189,8 @@ export class AdminServiceService {
 
 
 
-
+  createOrder(orderPayload: any): Observable<any> {
+    return this.http.post('https://localhost:7086/api/Admin/orders', orderPayload);
+  }
 
 }

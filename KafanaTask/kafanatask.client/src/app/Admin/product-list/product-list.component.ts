@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AdminServiceService, Product } from '../../AdminService/admin-service.service';
+import { ToastrService } from 'ngx-toastr'; 
+
 
 @Component({
   selector: 'app-product-list',
@@ -15,7 +17,7 @@ export class ProductListComponent implements OnInit {
     this.loadProducts();
   }
 
-  constructor(private adminService: AdminServiceService) { }
+  constructor(private adminService: AdminServiceService, private toastr: ToastrService) { }
 
   loadProducts() {
     this.adminService.getProducts(this.currentPage, 10).subscribe(response => {
@@ -59,6 +61,31 @@ export class ProductListComponent implements OnInit {
       }
     });
   }
+
+
+
+  createOrder(product: Product) {
+    const user = JSON.parse(localStorage.getItem('user') || '{}');
+    const customerId = user?.id; 
+
+    const orderPayload = {
+      customerId,
+      productId: product.id,
+      totalAmount: product.amount,
+      currency: product.currency
+    };
+
+    this.adminService.createOrder(orderPayload).subscribe({
+      next: (res) => {
+        this.toastr.success('Order created successfully!', 'Success');
+        this.loadProducts();
+      },
+      error: (err) => {
+        this.toastr.error('Failed to create order', 'Error');
+      }
+    });
+  }
+
 
 
 }

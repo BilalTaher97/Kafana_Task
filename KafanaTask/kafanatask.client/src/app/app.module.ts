@@ -10,6 +10,9 @@ import { CustomerListComponent } from './Admin/customer-list/customer-list.compo
 import { OrderListComponent } from './Admin/order-list/order-list.component';
 import { FormsModule } from '@angular/forms';
 import { AddProductComponent } from './Admin/add-product/add-product.component';
+import { CreateOrdersComponent } from './create-orders/create-orders.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { AddProductComponent } from './Admin/add-product/add-product.component';
     CustomerListComponent,
     ProductListComponent,
     OrderListComponent,
-    AddProductComponent
+    AddProductComponent,
+    CreateOrdersComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule, FormsModule 
+    AppRoutingModule, FormsModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
