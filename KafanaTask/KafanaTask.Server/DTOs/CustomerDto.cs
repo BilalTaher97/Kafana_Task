@@ -1,10 +1,16 @@
 ﻿namespace KafanaTask.DTOs
 {
-    public class CustomerDto
+    public class RegisterCustomerDto
     {
-        public string NameEn { get; set; } = null!;
-        public string Email { get; set; } = null!;
-        public string Phone { get; set; } = null!;
-        public string PasswordHash { get; set; } = null!; // مستقبلاً: استقبل plain password وشفّرها بالخدمة
+        public string NameEn { get; set; }
+        public string NameAr { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public IFormFile Photo { get; set; }
+        public string Password { get; set; }
+
+        public string GenderInput { get; set; }
+
+        public DateTime? DateOfBirth { get; set; }
     }
 }

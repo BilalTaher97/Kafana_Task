@@ -35,7 +35,7 @@ public partial class Customer
 
     public string PasswordHash { get; set; } = null!;
 
-    public byte[]? Photo { get; set; }
+    public string? Photo { get; set; }
 
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 }
