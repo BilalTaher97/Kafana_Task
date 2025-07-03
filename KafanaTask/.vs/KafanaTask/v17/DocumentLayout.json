@@ -3,8 +3,45 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\hp\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\service\\implementation\\customerservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\service\\implementation\\customerservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\repository\\interface\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\repository\\interface\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\repository\\implementation\\customerrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\repository\\implementation\\customerrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\service\\interface\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\service\\interface\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\service\\interface\\iadminordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\service\\interface\\iadminordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.server\\repository\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C23A916A-EE7F-460A-8BC5-AF2635089862}|KafanaTask.Server\\KafanaTask.Server.csproj|solutionrelative:kafanatask.server\\repository\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D0C66BF-9711-007A-A0F3-16A54E4D55BE}|kafanatask.client\\kafanatask.client.esproj|c:\\users\\user\\onedrive\\desktop\\kafana_task\\kafanatask\\kafanatask.client\\src\\app\\admin\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{4D0C66BF-9711-007A-A0F3-16A54E4D55BE}|kafanatask.client\\kafanatask.client.esproj|solutionrelative:kafanatask.client\\src\\app\\admin\\product-list\\product-list.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
     }
   ],
   "DocumentGroupContainers": [
@@ -14,6 +51,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -44,6 +82,123 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T17:42:20.307Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerService .cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Service\\Implementation\\CustomerService .cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Service\\Implementation\\CustomerService .cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Service\\Implementation\\CustomerService .cs",
+              "RelativeToolTip": "KafanaTask.Server\\Service\\Implementation\\CustomerService .cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:44:12.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Service\\Interface\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Service\\Interface\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Service\\Interface\\ICustomerService.cs",
+              "RelativeToolTip": "KafanaTask.Server\\Service\\Interface\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:44:00.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Repository\\Interface\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Repository\\Interface\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Repository\\Interface\\ICustomerRepository.cs",
+              "RelativeToolTip": "KafanaTask.Server\\Repository\\Interface\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:43:56.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository .cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Repository\\Implementation\\CustomerRepository .cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Repository\\Implementation\\CustomerRepository .cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Repository\\Implementation\\CustomerRepository .cs",
+              "RelativeToolTip": "KafanaTask.Server\\Repository\\Implementation\\CustomerRepository .cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:43:51.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\DTOs\\CustomerDTO.cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\DTOs\\CustomerDTO.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\DTOs\\CustomerDTO.cs",
+              "RelativeToolTip": "KafanaTask.Server\\DTOs\\CustomerDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T17:42:27.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Models\\Customer.cs",
+              "RelativeToolTip": "KafanaTask.Server\\Models\\Customer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:23:04.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAdminOrdersService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Service\\Interface\\IAdminOrdersService.cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Service\\Interface\\IAdminOrdersService.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Service\\Interface\\IAdminOrdersService.cs",
+              "RelativeToolTip": "KafanaTask.Server\\Service\\Interface\\IAdminOrdersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:15:55.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Repository\\Implementation\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "KafanaTask.Server\\Repository\\Implementation\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\KafanaTask.Server\\Repository\\Implementation\\OrderRepository.cs",
+              "RelativeToolTip": "KafanaTask.Server\\Repository\\Implementation\\OrderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T11:10:34.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "product-list.component.ts",
+              "DocumentMoniker": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\kafanatask.client\\src\\app\\Admin\\product-list\\product-list.component.ts",
+              "RelativeDocumentMoniker": "kafanatask.client\\src\\app\\Admin\\product-list\\product-list.component.ts",
+              "ToolTip": "C:\\Users\\User\\OneDrive\\Desktop\\Kafana_Task\\KafanaTask\\kafanatask.client\\src\\app\\Admin\\product-list\\product-list.component.ts",
+              "RelativeToolTip": "kafanatask.client\\src\\app\\Admin\\product-list\\product-list.component.ts",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-07-03T11:06:47.408Z"
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
             }
           ]
         }

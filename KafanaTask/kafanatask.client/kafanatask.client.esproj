@@ -8,6 +8,10 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\kafanatask.client\browser\</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="src\app\Service\" />
+=======
+    <Folder Include="src\app\AdminService\" />
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
   </ItemGroup>
 </Project>

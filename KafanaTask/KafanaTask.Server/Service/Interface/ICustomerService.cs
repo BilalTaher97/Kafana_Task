@@ -5,6 +5,7 @@ namespace KafanaTask.Service.Interface
 {
     public interface ICustomerService
     {
+<<<<<<< HEAD
 
         Task<bool> AddUser(Customer customer);
 
@@ -17,5 +18,12 @@ namespace KafanaTask.Service.Interface
 
         Task<bool> CancelOrder(int Id);
 
+=======
+        Task<(List<CustomerDTO> customers, int TotalCount)> GetPaginatedAsync(int page, int pageSize);
+
+        Task<Customer?> GetUserByIdAsync(int id);
+        Task DeleteUsersAsync(List<int> ids);
+        Task<Customer?> UpdateStatusAsync(int id, string statusEn, string statusAr);
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
     }
 }

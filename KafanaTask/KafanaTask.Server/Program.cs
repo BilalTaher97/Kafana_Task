@@ -1,6 +1,13 @@
 ﻿using KafanaTask.Repository.Implemetnation;
 using KafanaTask.Repository.Interface;
 using KafanaTask.Server.Models;
+<<<<<<< HEAD
+=======
+using KafanaTask.Server.Repository.Implementation;
+using KafanaTask.Server.Repository.Interface;
+using KafanaTask.Server.Service.Implementation;
+using KafanaTask.Server.Service.Interface;
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
 using KafanaTask.Service.Implemetnation;
 using KafanaTask.Service.Interface;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +25,7 @@ builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
 
 
+<<<<<<< HEAD
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policyBuilder =>
@@ -26,10 +34,35 @@ builder.Services.AddCors(options =>
             .AllowAnyOrigin()
             .AllowAnyHeader()
             .AllowAnyMethod();
+=======
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+
+builder.Services.AddScoped<IAdminProductsService, AdminProductsService>();
+builder.Services.AddScoped<IAdminProductsRepo, AdminProductsRepo>();
+
+builder.Services.AddScoped<IAdminOrdersRepos, AdminOrdersRepos>();
+builder.Services.AddScoped<IAdminOrdersService, AdminOrdersService>();
+
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder
+            .AllowAnyOrigin()    
+            .AllowAnyHeader()  
+            .AllowAnyMethod();   
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
     });
 });
 
 
+<<<<<<< HEAD
 builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 
@@ -57,6 +90,8 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey))
     };
 });
+=======
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
 
 
 
@@ -80,12 +115,20 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
+<<<<<<< HEAD
 
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 
+=======
+app.UseAuthorization();
+
+
+
+
+>>>>>>> a2d9b71c87ae60516c30dcab90009942fa165fb0
 app.MapControllers();
 
 
